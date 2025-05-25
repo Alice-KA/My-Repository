@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+.header {
+    background-color: #A4243B;
+    width: auto;
+    display: flex;
+    position: relative;
+    text-align: left;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #D8C99B;
+    font-weight: bold;
+}
+
+.header > a {
+    display: block;
+    position: absolute;
+    left: 1em;
+}
+
+.navmenu {
+    color: aliceblue;
+    position: absolute;
+    right: 1em;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+}
+
+body {
+    background-color: #D8C99B;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='80' height='80' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%23283f4800'/><path d='M-20.133 4.568C-13.178 4.932-6.452 7.376 0 10c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='%23283f481a' fill='none'/><path d='M-20.133 24.568C-13.178 24.932-6.452 27.376 0 30c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='%23283f481a' fill='none'/><path d='M-20.133 44.568C-13.178 44.932-6.452 47.376 0 50c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='%23283f481a' fill='none'/><path d='M-20.133 64.568C-13.178 64.932-6.452 67.376 0 70c6.452 2.624 13.036 5.072 20 5 6.967-.072 13.56-2.341 20-5 6.44-2.659 13.033-4.928 20-5 6.964-.072 13.548 2.376 20 5s13.178 5.068 20.133 5.432'  stroke-width='1' stroke='%23283f481a' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")
+
+}
+
+.main {
+    display: block;
+    width: auto;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: block;
+    margin: 40px;
+    padding: 30px;
+    background-color: #A4243B;
+    border-radius: 13px;
+    color: #D8C99B;
+    transition: 0.2s;
+
+}
+
+.cards:hover {
+    box-shadow: 0px 3px 6px 8px #460712d0;
+    text-shadow: 2px 2px 1px #460712d0;
+}
+
+.img {
+    width: 350px;
+    height: 510px;
+    border-radius: 13px;
+    border: 4px solid #D8C99B;
+}
+
+.footer {
+    background-color: #273E47;
+    display: block;
+    align-items: center;
+
+}
+
+.web {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+h6 {
+    color: #D8C99B;
+}
+
+h1 {
+    font-size: 40px;
+    color: #A4243B;
+;
+}
+
+@media (max-width:480px) {
+    .header {
+        width: auto;
+    }
+    .line {
+        flex-direction: column;
+    }
+    .img {
+        width: 200px;
+        height: 300px;
+
+    }
+    .cards {
+        margin: 10px;
+        
+    }
+
+}
